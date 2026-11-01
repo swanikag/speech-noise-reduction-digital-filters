@@ -1,0 +1,18 @@
+\begin{table*}[!t]
+\caption{MSE against the clean reference ($\times10^{-3}$, clips normalised to RMS 0.1), causal filtering with delay compensation (mean $\pm$ std; lowest per row in bold).}
+\label{tab:mse_causal}
+\centering\footnotesize
+\begin{tabular}{lcccccc}
+\hline
+Condition & Unfilt. & LPF & HPF & BPF & Notch & Notch-H \\ \hline
+WGN 0 dB & 10.00 & \textbf{4.56 $\pm$ 0.25} & 18.87 $\pm$ 1.86 & 12.89 $\pm$ 2.08 & 10.00 $\pm$ 0.00 & 10.15 $\pm$ 0.15 \\
+WGN 5 dB & 3.16 & \textbf{1.64 $\pm$ 0.24} & 12.13 $\pm$ 1.87 & 10.06 $\pm$ 2.09 & 3.16 $\pm$ 0.00 & 3.32 $\pm$ 0.14 \\
+WGN 10 dB & 1.00 & \textbf{0.72 $\pm$ 0.24} & 9.99 $\pm$ 1.86 & 9.16 $\pm$ 2.08 & 1.00 $\pm$ 0.00 & 1.16 $\pm$ 0.14 \\
+Hum 5 dB & 3.16 & 3.46 $\pm$ 0.24 & 9.45 $\pm$ 1.86 & 9.19 $\pm$ 2.08 & 0.83 $\pm$ 0.03 & \textbf{0.26 $\pm$ 0.12} \\
+Rumble 5 dB & 3.16 & 3.46 $\pm$ 0.24 & 9.14 $\pm$ 1.86 & 8.87 $\pm$ 2.08 & \textbf{3.03 $\pm$ 0.03} & 3.17 $\pm$ 0.15 \\
+Hiss 5 dB & 3.16 & \textbf{0.30 $\pm$ 0.24} & 12.17 $\pm$ 1.86 & 8.75 $\pm$ 2.08 & 3.16 $\pm$ 0.00 & 3.33 $\pm$ 0.14 \\
+Hum+WGN 5 dB & 3.16 & 2.55 $\pm$ 0.24 & 10.77 $\pm$ 1.85 & 9.60 $\pm$ 2.06 & 2.00 $\pm$ 0.02 & \textbf{1.79 $\pm$ 0.13} \\
+\hline
+\end{tabular}
+
+\end{table*}

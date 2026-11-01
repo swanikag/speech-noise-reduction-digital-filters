@@ -1,0 +1,15 @@
+{
+ "nseeds": 10,
+ "nclips": 6,
+ "clips": {
+  "cmu_arctic_us_aew_a0001": 3.8800625,
+  "cmu_arctic_us_aew_a0002": 4.0200625,
+  "cmu_arctic_us_aew_a0003": 3.5400625,
+  "cmu_arctic_us_axb_a0004": 2.805,
+  "cmu_arctic_us_axb_a0005": 1.5650625,
+  "cmu_arctic_us_axb_a0006": 3.54
+ },
+ "fs": 16000,
+ "trials_per_cell": 60,
+ "numpy": "2.4.4"
+}
