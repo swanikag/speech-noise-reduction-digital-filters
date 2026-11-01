@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Real-Time Speech Noise Reduction Using Digital Filters"
 authors:
-  - family-names: "Name"
-    given-names: "Author"
+  - family-names: "Gajula"
+    given-names: "Swanika"
 type: software
 license: MIT
